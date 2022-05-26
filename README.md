@@ -1,2 +1,2 @@
 # mypyWA
-sample whatsapp using python
+sample whatsapp using python using selenium
