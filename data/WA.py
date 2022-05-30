@@ -22,7 +22,7 @@ try:
     inputno1.send_keys(no_hp, Keys.ENTER)
     inputpesan = driver.find_element(By.XPATH, "//div[@title='Type a message']")
     inputpesan.send_keys(pesan, Keys.ENTER)
-
+    #display all message by contact
     print([my_elem.text for my_elem in
            driver.find_elements(By.XPATH, "//div[@class='_3K4-L']//*[contains(@class,'_2wUmf')]//descendant::div["
                                           "@class='_22Msk']")])
